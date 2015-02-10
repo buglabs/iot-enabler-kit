@@ -71,15 +71,11 @@ This is the most recent bugswarm-enabled device.  The firmware is currently in b
 
 1.  You will need to re-connect to a wireless access point with an internet connection.  Navigate to [bugcommunity.com/rdknext/](http://renesas.freeboard.io/).  In the "Thing Name" field, enter the thing name displayed on the RL78 LCD and click "SET" [Note: To change the thing name after clicking SET, please refresh the page).
 
-	![Select Board](https://raw.github.com/buglabs/bugswarm-renesas/yrdkrl78g14/tutorial/images/swarmSelectBoard.png)
+	![Select Board](https://raw.githubusercontent.com/buglabs/iot-enabler-kit/master/tutorial/images/rl78%20tutorial%201.png)
 
-1.  Click on the second dropdown box.  You should see the ```ID``` from the LCD screen in the list.  Select that entry and click "Go!".
+1.  You should now see live data from your Renesas device.  
 
-	![Select Device](https://raw.github.com/buglabs/bugswarm-renesas/yrdkrl78g14/tutorial/images/swarmSelectDevice.png)
-
-1.  You should now see live data from your Renesas device.  See the [tutorial folder](https://github.com/buglabs/bugswarm-renesas/tree/yrdkrl78g14/tutorial) for examples of how to use this data in your own application.
-
-	![Running demo](https://raw.github.com/buglabs/bugswarm-renesas/yrdkrl78g14/tutorial/images/swarmRunning.png)
+	![Running demo](https://raw.githubusercontent.com/buglabs/iot-enabler-kit/master/tutorial/images/rl78%20tutorial%202.png)
 
 
 ### Programming Instructions
