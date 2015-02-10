@@ -69,7 +69,7 @@ This is the most recent bugswarm-enabled device.  The firmware is currently in b
 
 	![LCD Screen when Running](http://i.imgur.com/DwSW7MW.jpg?3)
 
-1.  You will need to re-connect to a wireless access point with an internet connection.  Navigate to [bugcommunity.com/rdknext/](http://renesas.freeboard.io/).  In the "Thing Name" field, enter the thing name displayed on the RL78 LCD and click "SET" [Note: To change the thing name after clicking SET, please refresh the page).
+1.  You will need to re-connect to a wireless access point with an internet connection.  Navigate to [renesas.freeboard.io](http://renesas.freeboard.io/).  In the "Thing Name" field, enter the thing name displayed on the RL78 LCD and click "SET" [Note: To change the thing name after clicking SET, please refresh the page).
 
 	![Select Board](https://raw.githubusercontent.com/buglabs/iot-enabler-kit/master/tutorial/images/rl78%20tutorial%201.png)
 
