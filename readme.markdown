@@ -119,7 +119,7 @@ This is the most recent bugswarm-enabled device.  The firmware is currently in b
 
 	![programming select program](https://raw.github.com/buglabs/bugswarm-renesas/yrdkrl78g14/tutorial/images/flashSelectProgram.png)
 
-1.  Download the newest software release [from this link](https://github.com/buglabs/bugswarm-renesas/tags).  Each release is a snapshot of the entire repository.  Extract the downloaded zip file to the PC, then click on the ```Browse``` button on the Renesas Flash Progreammer, and select the .mot file that corresponds to the software release you would like to deploy:
+1.  Download the newest software release [from this link](https://github.com/buglabs/iot-enabler-kit/tags).  Each release is a snapshot of the entire repository.  Extract the downloaded zip file to the PC, then click on the ```Browse``` button on the Renesas Flash Progreammer, and select the .mot file that corresponds to the software release you would like to deploy:
 
 	![programming select firmware file](https://raw.github.com/buglabs/bugswarm-renesas/yrdkrl78g14/tutorial/images/flashSelectFirmware.png)
 
@@ -170,9 +170,8 @@ Pseudocode for the firmware:
 
 1.  Check status of switches.  If SW1 and SW3 are held down, enter Gainspan web demo.  If SW2 is held down, enter web provisioning mode
 1.  Initialize hardware and read wireless AP data from nonvolatile storage.  If no SSID has been saved, enter web provisioning mode
-1.  Read wifi MAC address and execute API call to swarm server.  Swarm credentials will be created if the device is new, and then returned.
-1.  If Swarm credentials could not be retreived from server, use default ID of "UnknownDevice".
-1.  Open a streaming "producer" session with the swarm API, and wait for message from server acknowledging the "presence" of the module.
+1.  Read wifi MAC address and execute API call to Dweet server.  Dweet credentials will be created if the device is new, and then returned.
+1.  If Dweet credentials could not be retreived from server, use default ID.
 1.  Enter production loop, in which each sensor on the board is sampled and transmitted to the server, every second.
 
 #### Known Issues
@@ -191,15 +190,15 @@ Pseudocode for the firmware:
 1.  Rebooting your device will often solve connection issues, please try this first.
 1.  If the device appears on the Renesas Web Portal as "UnknownDevice", try rebooting it.  Occasionally the first API call can fail if the wireless access point has not finished opening the connection.
 1.  If an error is printed to the LCD screen on line 4 or line 8, and the error does not go away for a few minutes, try manually resetting the board.
-1.  If the RDK board never appears on the web portal, use a smartphone or laptop to verify that the selected wireless access point has an internet connection, particularly to demo.bugswarm.com or developer.bugswarm.net.
-1.  Please use the most up-to-date browsers when connecting to http://bugcommunity.com/rdknext/ (IE8 or lower will not work, and older versions of Safari, Firefox and Chrome may have difficulty displaying data). The latest version of Firefox has shown to be the most robust.
+1.  If the RDK board never appears on the web portal, use a smartphone or laptop to verify that the selected wireless access point has an internet connection, particularly to dweet.io and freeboard.io.
+1.  Please use the most up-to-date browsers when connecting to http://renesas.freeboard.io/ (IE8 or lower will not work, and older versions of Safari, Firefox and Chrome may have difficulty displaying data). The latest version of Firefox has shown to be the most robust.
 1.  Conference center hotspots often have trouble sustaining a connection. Some hotspots do not work well with the Gainspan WiFi chipset. Please try a clean hotspot with little traffic if you experience connection issues (Verizon jetpack hotspots have been tested to work).
 
 ### Relevant Documentation
 
-* [bugswarm API documentation](http://developer.bugswarm.net/)
-* [bugswarm javascript library](https://github.com/buglabs/bugswarm-js)
-* [bugswarm preliminary configuration interface](http://demo.bugswarm.com/)
-* [YRDKRL78G13 Main Page](http://www.renesas.com/products/tools/introductory_evaluation_tools/renesas_demo_kits/yrdkrl78g13/index.jsp)
+* [Dweet Homepage & Documentation](http://dweet.io/)
+* [Simple RL78 Dashboard](http://renesas.freeboard.io/)
+* [Expanded RL78 Dashboard (w/ GPS)](http://rl78.freeboard.io/)
+* [RL78 Refrigeratior Demo](http://refrigeration.freeboard.io/)
 * [YRDKRL78G14 Main Page (With Quick Start Guide)](http://www.renesas.com/products/tools/introductory_evaluation_tools/renesas_demo_kits/yrdkrl78g14/index.jsp)
 
