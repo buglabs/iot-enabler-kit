@@ -15,11 +15,11 @@ A dweet connector for Renesas 8- and 16-bit microcontrollers.  This code turns a
 
 ## Supported Boards
 
-*  RL78/G14 Demonstration Kit (YRDKRL78G14) (this branch)
-    *  Built-in Gainspan GS1011-MIPS module
+*  RL78/G14 Demonstration Kit
+    *  Built-in WiFi Connectivity via Gainspan GS1011-MIPS module
     *  Support for GPS PMOD (beta)
     *  Support for cellular connectivity via Nimbelink PMOD (beta)
-    *  Support for additional PMODs in development
+    *  Support for additional PMODs (in development)
 
 ## The RL78/G14 board with built-in Gainspan module
 
