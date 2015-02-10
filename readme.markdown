@@ -1,4 +1,4 @@
-# buglabs-renesas dweet firmware: 
+# IOT Enabler Kit firmware: 
 
 **Table of Contents**  *generated with [DocToc](http://doctoc.herokuapp.com/)*
 
@@ -18,6 +18,9 @@ A dweet connector for Renesas 8- and 16-bit microcontrollers.  This code turns a
 
 *  RL78/G14 Demonstration Kit (YRDKRL78G14) (this branch)
     *  Built-in Gainspan GS1011-MIPS module
+    *  Support for GPS PMOD (beta)
+    *  Support for cellular connectivity via Nimbelink PMOD (beta)
+    *  Support for additional PMODs in development
 
 ## The RL78/G14 board with built-in Gainspan module
 
@@ -66,7 +69,7 @@ This is the most recent bugswarm-enabled device.  The firmware is currently in b
 
 	![LCD Screen when Running](http://i.imgur.com/DwSW7MW.jpg?3)
 
-1.  You will need to re-connect to a wireless access point with an internet connection.  Navigate to [bugcommunity.com/rdknext/](http://bugcommunity.com/rdknext/).  In the first dropdown box, select the YRDKRL78G14 board and click "Go!".
+1.  You will need to re-connect to a wireless access point with an internet connection.  Navigate to [bugcommunity.com/rdknext/](http://renesas.freeboard.io/).  In the "Thing Name" field, enter the thing name displayed on the RL78 LCD and click "SET" [Note: To change the thing name after clicking SET, please refresh the page).
 
 	![Select Board](https://raw.github.com/buglabs/bugswarm-renesas/yrdkrl78g14/tutorial/images/swarmSelectBoard.png)
 
