@@ -189,17 +189,17 @@ Pseudocode for the firmware:
 ### Troubleshooting
 
 1.  Rebooting your device will often solve connection issues, please try this first.
-1.  If the device appears on the Renesas Web Portal as "UnknownDevice", try rebooting it.  Occasionally the first API call can fail if the wireless access point has not finished opening the connection.
 1.  If an error is printed to the LCD screen on line 4 or line 8, and the error does not go away for a few minutes, try manually resetting the board.
 1.  If the RDK board never appears on the web portal, use a smartphone or laptop to verify that the selected wireless access point has an internet connection, particularly to dweet.io and freeboard.io.
+1.  Visit http://dweet.io/follow and input your device's Thing Name to verify successful connection to the Dweet messaging service. 
 1.  Please use the most up-to-date browsers when connecting to http://renesas.freeboard.io/ (IE8 or lower will not work, and older versions of Safari, Firefox and Chrome may have difficulty displaying data). The latest version of Firefox has shown to be the most robust.
 1.  Conference center hotspots often have trouble sustaining a connection. Some hotspots do not work well with the Gainspan WiFi chipset. Please try a clean hotspot with little traffic if you experience connection issues (Verizon jetpack hotspots have been tested to work).
 
 ### Helpful Links
 
-* [Dweet Homepage & Documentation](http://dweet.io/)
 * [Simple RL78 Dashboard](http://renesas.freeboard.io/)
 * [Expanded RL78 Dashboard (w/ GPS)](http://rl78.freeboard.io/)
 * [RL78 Refrigeratior Demo](http://refrigeration.freeboard.io/)
+* [Dweet Homepage & Documentation](http://dweet.io/)
 * [YRDKRL78G14 Main Page (With Quick Start Guide)](http://www.renesas.com/products/tools/introductory_evaluation_tools/renesas_demo_kits/yrdkrl78g14/index.jsp)
 
