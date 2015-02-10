@@ -11,6 +11,7 @@
 		- [Implementation Details](#implementation-details)
 			- [Known Issues](#known-issues)
 		- [Troubleshooting](#troubleshooting)
+	- [Helpful Links](#helpful-links)
 
 A dweet connector for Renesas 8- and 16-bit microcontrollers.  This code turns a compatible evaluation board into a real-time internet enabled device.  Once the connector is deployed to a device, the device will automatically connect to the bugswarm platform and share it's peripherals using a standardized API.  This enables developers to create applications for the evaluation board in a wide variety of languages, without needing to download an SDK or physical access to the device.  
 
@@ -194,7 +195,7 @@ Pseudocode for the firmware:
 1.  Please use the most up-to-date browsers when connecting to http://renesas.freeboard.io/ (IE8 or lower will not work, and older versions of Safari, Firefox and Chrome may have difficulty displaying data). The latest version of Firefox has shown to be the most robust.
 1.  Conference center hotspots often have trouble sustaining a connection. Some hotspots do not work well with the Gainspan WiFi chipset. Please try a clean hotspot with little traffic if you experience connection issues (Verizon jetpack hotspots have been tested to work).
 
-### Relevant Documentation
+### Helpful Links
 
 * [Dweet Homepage & Documentation](http://dweet.io/)
 * [Simple RL78 Dashboard](http://renesas.freeboard.io/)
