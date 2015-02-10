@@ -11,7 +11,7 @@
 	- [Troubleshooting](#troubleshooting)
 - [Helpful Links](#helpful-links)
 
-A dweet connector for Renesas 8- and 16-bit microcontrollers.  This code turns a compatible evaluation board into a real-time internet enabled device.  Once the connector is deployed to a device, the device will automatically connect to the bugswarm platform and share it's peripherals using a standardized API.  This enables developers to create applications for the evaluation board in a wide variety of languages, without needing to download an SDK or physical access to the device.  
+A Dweet (http://dweet.io) and Freeboard (http://freeboard.io) cloud connector for Renesas 8- and 16-bit microcontrollers.  This code turns a compatible evaluation board into a real-time internet enabled device.  Once the connector is deployed to a device, the device will automatically connect to the cloud platforms and share it's peripherals using a standardized API.  This enables developers to create applications for the evaluation board in a wide variety of languages, without needing to download an SDK or physical access to the device.  
 
 ## Supported Boards
 
@@ -23,8 +23,8 @@ A dweet connector for Renesas 8- and 16-bit microcontrollers.  This code turns a
 
 ## The RL78/G14 board with built-in Gainspan module
 
-This is the most recent bugswarm-enabled device.  The firmware is currently in beta, using the IAR RL78 Workbench development environment.  For the final firmware release, the code will be ported to the CubeSuite+ environment and Applilet3 driver generation tool.  Notable improvements:
-*  Swarm credentials are automatically generated based on the device mac address, no user intervention required
+The current firmware code uses the IAR RL78 Workbench development environment.  Future code releases will support additonal IDEs including the CubeSuite+ environment and Applilet3 driver generation tool.  Notable features include:
+*  Dweet credentials are automatically generated based on the device mac address, no user intervention required
 *  Wifi access point can be set using the web provisioning feature of the gainspan module
 *  A single firmware can be used for all RL78G14 development boards.
 
