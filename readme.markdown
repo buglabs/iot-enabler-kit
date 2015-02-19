@@ -196,9 +196,9 @@ Pseudocode for the firmware:
 
 ### Helpful Links
 
-* [Simple RL78 Dashboard](http://renesas.freeboard.io/)
-* [Expanded RL78 Dashboard (w/ GPS)](http://rl78.freeboard.io/)
-* [RL78 Refrigeratior Demo](http://refrigeration.freeboard.io/)
+* [Simple RL78 Dashboard](http://renesas.freeboard.io/) - http://renesas.freeboard.io/
+* [Expanded RL78 Dashboard (w/ GPS)](http://rl78.freeboard.io/) - http://rl78.freeboard.io/
+* [RL78 Refrigeratior Demo](http://refrigeration.freeboard.io/) - http://refrigeration.freeboard.io/
 * [Distillery Dashboard](https://freeboard.io/board/538e1353f1776c1c2e000712)
 * [City Air Quality Dashboard](https://freeboard.io/board/538e1374f1776c1c2e000713)
 * [Humidor Dashboard](https://freeboard.io/board/538e1392f1776c1c2e000714)
